@@ -110,7 +110,7 @@ function parseIdentify(input) {
 
   //JH >>>
   //for (i in lines) {
-  for (i = 0; i < lines.count; i++) {
+  for (i = 0; i < lines.length; i++) {
   //JH <<<
     currentLine = lines[i];
     indent = currentLine.search(/\S/);
